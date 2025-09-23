@@ -22,7 +22,7 @@ WantedBy=multi-user.target
 
 ```
 sudo systemctl daemon-reload
-sudo systemctl start autoapproval
+sudo systemctl stop autoapproval; npm run build; sudo systemctl start autoapproval
 sudo systemctl status autoapproval
 sudo systemctl enable autoapproval
 ```

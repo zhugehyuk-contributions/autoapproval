@@ -11,3 +11,9 @@ blacklisted_labels:
 
 apply_labels:
   - merge
+
+webhook_url: 
+
+slack_user_mapping:
+  githubUsername1: "slackUserID1"
+  githubUsername2: "slackUserID2"

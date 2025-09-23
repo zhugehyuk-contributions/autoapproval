@@ -1,5 +1,8 @@
 {
   "action": "opened",
+  "sender": {
+    "login": "dkhmelenko"
+  },
   "pull_request": {
     "node_id": "MDExOlB1bGxSZXF1ZN0NjExMzU2MTgy",
     "number": 1,
